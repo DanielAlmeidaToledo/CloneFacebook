@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.div1 {
+    left: 10px;
+    display: block;
+    padding-right: 20px;
+    width: 540px;
+    height: 300px;
+}
+
+.logo {
+    position: relative;
+    width: 301px;
+    height: 106px;
+    left: -30px;
+}
+
+.frase {
+    position: relative;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #1c1e21;
+    width: 500px;
+    top: -12px;
+}
+
+.login {
+    position: relative;
+    top: -12px;
+    background-color: #FFFFFF;
+    width: 396px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: #1c1e21;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.email, .password {
+    width: 362px;
+    height: 49px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #dddfe2;
+}
+
+input::placeholder {
+    font: 17px Helvetica;
+    padding-left: 12px;
+    line-height: 16px;
+}
+
+.email {
+    margin: 16px 16px 16px 16px;
+}
+
+.password {
+    margin: 0px 16px 16px 16px;
+}
+
+button.entrar {
+    position: relative;
+    left: 16px;
+    width: 364px;
+    height: 48px;
+    background-color: #166FE5;
+    font:20px Helvetica;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+
+.forgot {
+    position: relative;
+    left: 142px;
+    top: 15px;
+    font: 14px Helvetica;
+    font-weight: 500;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+div.linha {
+    position: relative;
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+    top: 15px;
+    text-align: center;
+}
+
+button.criar {
+    position: relative;
+    width: auto;
+    height: 48px;
+    background-color: #42b72a;
+    font:17px Helvetica;
+    line-height: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 16px;
+    margin: 6px 102px 39px 101px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.final {
+    font: 14px Helvetica;
+    color: #1c1e21;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.final1 {
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: 600;
+}
